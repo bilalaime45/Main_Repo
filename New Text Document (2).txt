@@ -1,3 +1,0 @@
-SELECT COUNT(fac_posts.post_sanc), fac_posts.fac_desig_id  
-FROM fac_posts
-LEFT JOIN designations ON fac_posts.fac_desig_id = designations.id AND designations.desig_scale > 16
